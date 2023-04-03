@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+}
+.container{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#navsec{
+padding: 10px;
+background-image: url(images/bg-hero-desktop.svg);
+font-size: 11px;
+text-align: center;
+color: hsl(228, 45%, 44%);
+}
+.navbar{
+    margin-bottom: 20px;
+}
+img{
+    height: 80%;
+    width: 80%;
+}
+.img2{
+    height: 10px;
+    width: 10px;
+    color:  hsl(228, 45%, 44%);
+}
+.img1{
+    height: 20px;
+    width: 40px;
+    color:  hsl(228, 45%, 44%);
+}
+
+.btn{
+    margin-bottom: 20px;
+    color: hsl(228, 45%, 44%);
+}
+.but{
+    background-color: #ff1694;
+}
+.but:hover{
+   background-color: pink;
+}
+#growtogether{
+    margin: 20px;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);  
+}
+.one{
+    width: 300px;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    right: 500px;
+}
+#footer{
+    background-color: hsl(228, 45%, 44%);
+    color: white;
+    padding: 150px 0 10px 0;
+font-size: 11px;
+text-align: center;
+}
