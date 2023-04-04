@@ -2,19 +2,20 @@ body{
     margin: 0%;
 }
 .container{
-    border-radius: 15px;
+    border-radius: 20px;
     margin-bottom: 30px;}
 .contain{
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.219);
+    box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.219);
 }
 
 #navsec{
 padding-top: 10px;
+padding-bottom: 10px;
 background-image: url(images/bg-hero-desktop.svg);
 font-size: 11px;
-text-align: center;
+text-align: left;
 background-color:#f0f8ff ;
-color: hsl(228, 45%, 44%);
+color: #2e5090;
 }
 .navbar{
     margin-bottom: 20px;
@@ -30,17 +31,17 @@ img{
 .img2{
     height: 10px;
     width: 10px;
-    color:  hsl(228, 45%, 44%);
+    color: #2e5090;
 }
 .img1{
     height: 20px;
     width: 60px;
-    color:  hsl(228, 45%, 44%);
+    color:  #2e5090;
 }
 
 .btn{
     margin-bottom: 20px;
-    color: hsl(228, 45%, 44%);
+    color:#2e5090;
 }
 .btn{
     background-color: #ff1694;
@@ -48,26 +49,40 @@ img{
 }
 .btn:hover{
    background-color: pink;
-   color:hsl(228, 45%, 44%) ;
+   color:#2e5090;
+}
+.but{
+    background-color: white;
+    color: #2e5090;
+}
+.but:hover{
+    color: #2e5090;
+    border-color: #ff1694;
 }
 #growtogether{
     margin: 20px;
     padding: 10px;
     font-size: 11px;
-    text-align: center;
-    color: hsl(228, 45%, 44%);  
+    text-align: left;
+    color: #2e5090;  
 }
 .one{
     width: 300px;
     z-index: 1;
     background-color: white;
-    position: absolute;
-    right: 500px;
+    position: relative;
+    top: 110px;
+    border-radius: 10px;
+    text-align: center;
+}
+.two{
+    text-align: left;
 }
 #footer{
-    background-color: hsl(228, 45%, 44%);
+   background-color: #003366;
     color: white;
     padding: 150px 0 10px 0;
 font-size: 11px;
 text-align: center;
+line-height: 15px;
 }
