@@ -36,7 +36,7 @@ img{
 .img1{
     height: 20px;
     width: 60px;
-    color:  #2e5090;
+    color:  #2e5090;margin-bottom: 0%;
 }
 
 .btn{
@@ -85,4 +85,16 @@ img{
 font-size: 11px;
 text-align: center;
 line-height: 15px;
+}
+
+@media (max-width: 700px) {
+    .container{text-align: center;}
+    .container-fluid{text-align: left;}
+    .one{
+        width: 95%;
+        height: 100px;
+        background-color: white;
+        top: 110px;
+        border-radius: 10px;
+        text-align: center;}
 }
